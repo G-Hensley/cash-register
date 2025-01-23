@@ -18,7 +18,7 @@ Installation
 
   Clone the repository:
 
-    git clone https://github.com/yourusername/cash-register.git
+    git clone https://github.com/G-Hensley/cash-register.git
 
   Navigate to the project directory:
 
