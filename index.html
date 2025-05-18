@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cash Register</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1>Cash Register</h1>
 
     <div id="change-due-container">
-        <p id="change-due-title">Change Due:</p>
-        <div id="change-due"></div>
+      <p id="change-due-title">Change Due:</p>
+      <div id="change-due"></div>
+      <p id="status-title">Status:</p>
+      <div id="status"></div>
     </div>
 
     <form action="pay" id="cash-input-form">
-        <label id="cash-label" for="cash">Enter cash from customer:</label>
-        <input step="0.01" type="number" id="cash" placeholder="0.00">
-        <button id="purchase-btn">Purchase</button>
+      <label id="cash-label" for="cash">Enter cash from customer:</label>
+      <input step="0.01" type="number" id="cash" placeholder="0.00" />
+      <button id="purchase-btn">Purchase</button>
     </form>
 
     <div id="register">
-        <h2 id="total">Total: </h2>
-        <div id="change-container">
-            <p id="change-in-drawer">Change in drawer:</p>
-            <p id="pennies">Pennies: </p>
-            <p id="nickels">Nickels: </p>
-            <p id="dimes">Dimes: </p>
-            <p id="quarters">Quarters: </p>
-            <p id="ones">Ones: </p>
-            <p id="fives">Fives: </p>
-            <p id="tens">Tens: </p>
-            <p id="twenties">Twenties: </p>
-            <p id="hundreds">Hundreds: </p>
-        </div>
+      <h2 id="total">Total:</h2>
+      <div id="change-container">
+        <p id="change-in-drawer">Change in drawer:</p>
+        <p id="pennies">Pennies:</p>
+        <p id="nickels">Nickels:</p>
+        <p id="dimes">Dimes:</p>
+        <p id="quarters">Quarters:</p>
+        <p id="ones">Ones:</p>
+        <p id="fives">Fives:</p>
+        <p id="tens">Tens:</p>
+        <p id="twenties">Twenties:</p>
+        <p id="hundreds">Hundreds:</p>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
