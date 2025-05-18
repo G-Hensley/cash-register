@@ -191,6 +191,21 @@ input::-webkit-inner-spin-button {
   box-shadow: var(--shadow);
 }
 
+/* ===== FOOTER STYLES ===== */
+#footer {
+  color: var(--white);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-link {
+  color: var(--white);
+}
+
+.footer-link:hover {
+  color: black;
+}
+
 /* ===== RESPONSIVE STYLES ===== */
 @media (max-width: 480px) {
   body {

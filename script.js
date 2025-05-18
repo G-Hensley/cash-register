@@ -14,6 +14,10 @@ let cid = [
 let cash = document.getElementById('cash');
 let total = document.getElementById('total');
 
+let year = document.getElementById('year');
+
+year.innerText = new Date().getFullYear();
+
 /* ===== CASH DRAWER ELEMENTS ===== */
 let pennies = document.getElementById('pennies');
 let nickels = document.getElementById('nickels');
